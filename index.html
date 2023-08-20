@@ -6,7 +6,9 @@
     <link rel="stylesheet" href="main.css">
     <title>Document</title>
 </head>
-<body>
+<body class="overflow-x-hidden">
+
+    <!-- navbar -->
     <nav class="bg-deepBlue">
         <div class="relative w-[1080px] mx-auto flex items-center justify-between">
             <a href="#"  class="cursor-pointer py-7 pr-7">
@@ -77,5 +79,37 @@
 
         </div>
     </nav>
+
+
+    <!-- hero section  -->
+    <section class=" bg-deepBlue relative">
+        <div class="max-w-[1080px] w-10/12 flex justify-between items-center mx-auto">
+
+            <!-- left -->
+            <div class="space-y-8">
+                <h1 class="text-white font-mullish font-bold text-[40px] leading-[1.2]">Power your finance, grow your business</h1>
+
+                <div class="w-6 h-1 bg-green-600"></div>
+
+                <p class="text-white font-mullish opacity-70 leading-7 text-[18px]">Accept payments from customers. Automate payouts to vendors & employees. Never run out of working capital.</p>
+
+                <button class="py-3 px-4 font-mullish-bold rounded-md bg-lightBlue 
+                text-white transition-all duration-200 hover:bg-lightBlue500">
+                    Sign Up Now
+
+
+                </button>
+            </div>
+
+            <!-- right -->
+                <img src="./Images/hero-illustration.jpg"  
+                class="max-w-[680px]">
+        </div>
+
+        <div class="absolute left-0 right-0 w-[101%]">
+            <img src="./Images/hero-shape.svg" class="w-full object-fill">
+        </div>
+    </section>
+
 </body>
 </html>
